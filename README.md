@@ -22,3 +22,34 @@ Pluto Polygraph was built for the purposes of scientific investigation and resea
 - Have an understanding of computer and web interfaces.
 - Have an understanding of the polygraph process or lie detector in general.
 - Have an understanding of the interview or interrogation process, as well as the general examination process.
+
+## Installation
+1. Python
+Decide which version of python to use. Python can be downloaded at the following link: Download Python | Python.org
+After the download is complete, you can follow the following instructions:
+  # Windows
+    - Open the installer file that has been downloaded from the python website by double clicking.
+    - Pilih “Install for all users” agar bisa digunakan oleh semua user di komputer.
+    - Configure python to be recognized by the operating system by clicking the Add Python 3.7 to PATH checklist or according to the installed version.
+    - Click "Install now".
+    - If the installation is successful, the words "Setup was Successful" will appear.
+    - To do a test (optional), run Command Prompt (CMD) and write 'python' to enter python mode.
+  # MacOS
+    - Open the installer file that has been downloaded from the python website by right-clicking and selecting Open.
+    - Click Continue at the next stage starting from Introduction to Installation Type.
+    - Enter the computer user password if prompted at the installation stage.
+    - If the installation is successful it will appear "Installation was successful".
+    - Python testing can be done using the Command Prompt (CMD) the same as in the Windows version.
+  # Linux
+    - Download the development package needed to build python.
+    - Download the latest python installer file on the official website and there will be a file with the format .tar.xz (tarball) containing the python source code.
+    - If a dialog box appears, select Save.
+    - Double click on the downloaded file.
+    - Extract files.
+    - Configure the script and run the following command in the terminal:
+      $ cd Python-3.*
+      ./configure
+    - Wait until the installation is complete.
+    - Do a test by writing 'python3 -version' in the terminal.
+3. Database / Using XAMPP
+4. Cloning Project
