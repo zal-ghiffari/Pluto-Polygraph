@@ -24,18 +24,18 @@ Pluto Polygraph was built for the purposes of scientific investigation and resea
 - Have an understanding of the interview or interrogation process, as well as the general examination process.
 
 # Installation
-1. Python
-Decide which version of python to use. Python can be downloaded at the following link: Download Python | Python.org
+1. Python <br />
+Decide which version of python to use. Python can be downloaded at the following link: [Download Python](Python.org) <br />
 After the download is complete, you can follow the following instructions:
   ## Windows
-    - Open the installer file that has been downloaded from the python website by double clicking.
-    - Pilih “Install for all users” agar bisa digunakan oleh semua user di komputer.
+    - Open python installer file.
+    - Select "install for all users" so that it can be used by all users on the computer.
     - Configure python to be recognized by the operating system by clicking the Add Python 3.7 to PATH checklist or according to the installed version.
     - Click "Install now".
     - If the installation is successful, the words "Setup was Successful" will appear.
     - To do a test (optional), run Command Prompt (CMD) and write 'python' to enter python mode.
   ## MacOS
-    - Open the installer file that has been downloaded from the python website by right-clicking and selecting Open.
+    - Open python installer file.
     - Click Continue at the next stage starting from Introduction to Installation Type.
     - Enter the computer user password if prompted at the installation stage.
     - If the installation is successful it will appear "Installation was successful".
@@ -51,5 +51,5 @@ After the download is complete, you can follow the following instructions:
       ./configure
     - Wait until the installation is complete.
     - Do a test by writing 'python3 -version' in the terminal.
-3. Database / Using XAMPP
-4. Cloning Project
+3. Database / Using XAMPP <br />
+4. Cloning Project <br />
