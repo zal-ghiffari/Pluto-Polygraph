@@ -50,5 +50,53 @@ After the download is complete, you can follow the following instructions:
       ./configure
     - Wait until the installation is complete.
     - Do a test by writing 'python3 -version' in the terminal.
-3. Database / Using XAMPP <br />
-4. Cloning Project <br />
+2. Database / Using XAMPP <br />
+XAMPP is used for databases which can be downloaded via the following link: [Download XAMPP](https://www.apachefriends.org/download.html) <br />
+After the download is complete, you can install it by following these instructions:
+  ## Windows
+    - Open the downloaded folder then open the installer file (.exe) by right-clicking and selecting Run as Administrator.
+    - The initial installation process will usually display the Bitnami icon, click OK on the warning that appears.
+    - Click Next when the initial XAMPP Setup window appears.
+    - Make sure all components (Apache, MySQL, FileZilla, Phpmyadmin) and others must be checked, then click Next.
+    - Click Next at each subsequent stage, then wait until the installation process is complete.
+  ## MacOS
+    - Open the downloaded installer file then click the XAMPP file to start the installation.
+    - Enter the password of the computer user if prompted.
+    - Just like windows, an initial window will appear with a bitnami writing logo, then click Next in the XAMPP Setup window.
+    - Centang komponen instalasi XAMPP, lalu klik Next pada setiap tahap selanjutnya.
+    - When the installation is complete, go to the Application directory and select the XAMPP folder.
+    - Control Panel XAMPP on MacOS named Manager OSX, open the file to run XAMPP.
+  ## Linux
+    - After the installer file has been downloaded, open a terminal on linux then change to the download directory using the command:
+      $ cd Downloads/
+    - Then change the executable file using the command:
+      $ sudo chmod +x xampp-linux-x64-7.2.3-0-installer.run
+      or according to the file name of the downloaded version.
+    - Install the XAMPP file using the command:
+      $ sudo ./xampp-linux-x64-7.2.3-0-installer.run
+    - Once the XAMPP Setup window opens, follow the install prompts as on Windows or MacOS.
+    - Click finish after the installation process is complete.
+3. Cloning Project <br />
+For use without installation, please visit the [following link](https://pluto-polygraph.havefun-ktrnxx.my.id/) <br />
+And if you want to install on a local system, clone the project from the [following github link](https://github.com/zal-ghiffari/Pluto-Polygraph.git) <br />
+4. Module <br />
+Install the python module by opening the Command Prompt (CMD) or terminal and then executing the command: <br /> <br />
+Windows : **python -m pip install -r requirements.txt** <br />
+Linux : **pip install -r requirements.txt** <br />
+MacOS : **pip install -r requirements.txt** <br />
+
+6. Database Congiguration <br />
+Run XAMPP then open localhost phpmyadmin, after that create a database then import the **pluto_polygraph.sql** file in the database. Next, open the project folder, then edit the **app.py** file and then adjust the following parameters: <br /> <br />
+**app.config['MYSQL_HOST'] = 'localhost'** <br />
+**app.config['MYSQL_USER'] = 'root'** <br />
+**app.config['MYSQL_PASSWORD'] = ''** <br />
+**app.config['MYSQL_DB'] = 'pluto_polygraph'** <br /> <br />
+In **MYSQL_HOST** adjust to the mysql server host, in **MYSQL_USER** adjust to the mysql user name, in **MYSQL_PASSWORD** adjust to the mysql password, and finally **MYSQL_DB** is adjusted to the database name created earlier.
+
+8. Flask Configuration <br />
+In this configuration just adjust the app.py file on the following parameters: **app.secret_key = "S3cr3t0VickingLovelySt4aar1!"** <br />
+Please adjust it with your favorite secret_key <br />
+9. Running Flask <br />
+Run the flask app with the following command in CMD: **python app.py** <br />
+The flask contains the following parameters: **app.run(debug=True, host='0.0.0.0', port=9000)** <br /> <br />
+You can use the port as desired, and if you use host 0.0.0.0 it will use the local IP on the network, while if you use host 127.0.0.1 it will use localhost. In the debug parameter, if it is enabled it will display an error that occurs when running the flask app and when there is a change in the source code it will be restarted immediately, and vice versa if the debug parameter is not enabled.
