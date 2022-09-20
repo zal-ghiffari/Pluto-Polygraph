@@ -127,5 +127,11 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
   f. Add Investigator <br />
   g. Exit <br />
 
-2. How To Use
-
+2. How To Use <br />
+  a. How to Open The App <br />
+    To start the Pluto Polygraph application, follow these steps: <br />
+      1) Open the Pluto Polygraph application via a web browser (IE or Mozilla    FireFox or others) with the following url address: https://pluto-polygraph.havefun-ktrnxx.my.id/ to use without installation on local, http://127.0. 0.1:9000/ to previously install on a local system. <br />
+      2) Then press Enter on the keyboard key or click the Go button on the browser. <br />
+      3) The Pluto Polygraph application landing page will appear. <br />
+    Then the Pluto Polygraph application landing page will appear on the screen as shown in Figure 4.1 <br />
+    
