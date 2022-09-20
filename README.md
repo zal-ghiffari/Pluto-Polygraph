@@ -81,22 +81,33 @@ For use without installation, please visit the [following link](https://pluto-po
 And if you want to install on a local system, clone the project from the [following github link](https://github.com/zal-ghiffari/Pluto-Polygraph.git) <br />
 4. Module <br />
 Install the python module by opening the Command Prompt (CMD) or terminal and then executing the command: <br /> <br />
-Windows : **python -m pip install -r requirements.txt** <br />
-Linux : **pip install -r requirements.txt** <br />
-MacOS : **pip install -r requirements.txt** <br />
+  ## Windows 
+    python -m pip install -r requirements.txt
+  ## Linux
+    pip install -r requirements.txt
+  ## MacOS
+    pip install -r requirements.txt
 
-6. Database Congiguration <br />
+5. Database Congiguration <br />
 Run XAMPP then open localhost phpmyadmin, after that create a database then import the **pluto_polygraph.sql** file in the database. Next, open the project folder, then edit the **app.py** file and then adjust the following parameters: <br /> <br />
-**app.config['MYSQL_HOST'] = 'localhost'** <br />
-**app.config['MYSQL_USER'] = 'root'** <br />
-**app.config['MYSQL_PASSWORD'] = ''** <br />
-**app.config['MYSQL_DB'] = 'pluto_polygraph'** <br /> <br />
+  ## Parameters
+    app.config['MYSQL_HOST'] = 'localhost'
+    app.config['MYSQL_USER'] = 'root'
+    app.config['MYSQL_PASSWORD'] = ''
+    app.config['MYSQL_DB'] = 'pluto_polygraph'
 In **MYSQL_HOST** adjust to the mysql server host, in **MYSQL_USER** adjust to the mysql user name, in **MYSQL_PASSWORD** adjust to the mysql password, and finally **MYSQL_DB** is adjusted to the database name created earlier.
 
-8. Flask Configuration <br />
-In this configuration just adjust the app.py file on the following parameters: **app.secret_key = "S3cr3t0VickingLovelySt4aar1!"** <br />
-Please adjust it with your favorite secret_key <br />
-9. Running Flask <br />
-Run the flask app with the following command in CMD: **python app.py** <br />
-The flask contains the following parameters: **app.run(debug=True, host='0.0.0.0', port=9000)** <br /> <br />
+6. Flask Configuration <br />
+In this configuration just adjust the app.py file on the following parameters: 
+  ## Parameters
+    app.secret_key = "S3cr3t0VickingLovelySt4aar1!"
+Please adjust it with your favorite secret_key <br /> <br />
+
+7. Running Flask <br />
+Run the flask app with the following command in CMD: 
+  ## Command Line 
+    python app.py
+The flask contains the following parameters: 
+  ## Parameters
+    app.run(debug=True, host='0.0.0.0', port=9000)
 You can use the port as desired, and if you use host 0.0.0.0 it will use the local IP on the network, while if you use host 127.0.0.1 it will use localhost. In the debug parameter, if it is enabled it will display an error that occurs when running the flask app and when there is a change in the source code it will be restarted immediately, and vice versa if the debug parameter is not enabled.
