@@ -133,5 +133,8 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
       1) Open the Pluto Polygraph application via a web browser (IE or Mozilla    FireFox or others) with the following url address: https://pluto-polygraph.havefun-ktrnxx.my.id/ to use without installation on local, http://127.0. 0.1:9000/ to previously install on a local system. <br />
       2) Then press Enter on the keyboard key or click the Go button on the browser. <br />
       3) The Pluto Polygraph application landing page will appear. <br />
-    Then the Pluto Polygraph application landing page will appear on the screen as shown in Figure 4.1 <br />
+    Then the Pluto Polygraph application landing page will appear on the screen as shown in Figure below: <br />
+    <p align="center"><img src="images/landing-page.PNG" width="600" height="280"></p> <br />
+    <p align="center">Landing Page Pluto Polygraph</p> <br />
+    If you want to go to the login menu page, hover over and click the Login button in the upper right corner, then you will be directed to the login page as shown below: <br />
     
