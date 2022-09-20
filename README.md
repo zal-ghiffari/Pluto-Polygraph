@@ -111,3 +111,21 @@ The flask contains the following parameters:
   ## Parameters
     app.run(debug=True, host='0.0.0.0', port=9000)
 You can use the port as desired, and if you use host 0.0.0.0 it will use the local IP on the network, while if you use host 127.0.0.1 it will use localhost. In the debug parameter, if it is enabled it will display an error that occurs when running the flask app and when there is a change in the source code it will be restarted immediately, and vice versa if the debug parameter is not enabled.
+
+# Menu and How To Use
+1. Menu Structure <br />
+The menu structure in the Pluto Polygraph Application is as follows: <br />
+  a. Login <br />
+  b. EEG Data Extraction <br />
+    contains EEG data extraction guide and live preview EEG. <br />
+  c. File Detection <br />
+    contains the results of EEG data analysis, the percentage of lie detection
+    results, save history data, and history data. <br />
+  d. Add Case <br />
+  e. History <br />
+    contains case history and question case details. <br />
+  f. Add Investigator <br />
+  g. Exit <br />
+
+2. How To Use
+
