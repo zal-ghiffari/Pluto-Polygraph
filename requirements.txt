@@ -1,0 +1,9 @@
+Flask==2.1.2
+Flask_MySQLdb==1.0.1
+Keras==2.4.3
+numpy==1.19.5
+pandas==1.2.3
+python_bcrypt==0.3.2
+Werkzeug==2.1.2
+gunicorn==20.1.0
+psycopg2==2.9.3
