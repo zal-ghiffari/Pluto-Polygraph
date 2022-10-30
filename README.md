@@ -137,4 +137,10 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
     <p align="center"><img src="images/landing-page.PNG" width="600" height="280"></p> <br />
     <p align="center">Landing Page Pluto Polygraph</p> <br />
     If you want to go to the login menu page, hover over and click the Login button in the upper right corner, then you will be directed to the login page as shown below: <br />
-    
+    <p align="center"><img src="images/login-page.PNG" width="600" height="280"></p> <br />
+    <p align="center">Login Page Pluto Polygraph</p> <br />
+    Please can use the guest user that has been provided or use the following user: <br />
+    superuser@puslab.com : test123 (for super users) <br />
+    investigator1@puslab.com : investigator1 (for investigator users) <br />
+
+    Investigator users can be added later using a super user account. If you have logged in, it will display a dashboard page like the following: <br />
