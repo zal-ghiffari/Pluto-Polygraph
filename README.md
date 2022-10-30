@@ -147,7 +147,7 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
     <p align="center"><img src="images/dashboard-1.PNG" width="600" height="280"> <br />
     <p align="center"><img src="images/dashboard-2.PNG" width="600" height="280"> <br />
 
-  a. Investigator Page <br />
+  b. Investigator Page <br />
     The investigator user will display the initial dashboard as shown in Figure 4.3, and have the following menu: <br />
     <p align="center"><img src="images/menu-penyidik.PNG" width="600" height="280"> <br />
     1) Menu EEG Extraction <br />
@@ -168,3 +168,18 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
     5) Menu Logout
       This menu is used to log out of the account or from the dashboard that is logged in with the account. To exit or logout by clicking the user icon in the upper right corner then a dropdown menu will appear, then click the logout button and successfully exit the dashboard. <br />
       <p align="center"><img src="images/menu-logout.PNG" width="600" height="280"> <br />
+  b. Super User Page <br />
+    The super user will display the initial dashboard as shown in Figure 4.3 as well. The super user has a menu that is almost the same as the investigator user, but there is one additional menu on the super user that the investigator does not have, namely the add investigator menu. Here's what the menu looks like on the super user: <br />
+    <p align="center"><img src="images/menu-super-user.PNG" width="600" height="280"> <br />
+    1) Menu Add Investigator <br />
+      This menu is only owned by super users, where this menu can add an investigator user account by clicking the menu, then fill in the form in the form of a username, email, full name, and password, then click the add now button to add an investigator user account. <br />
+        <p align="center"><img src="images/menu-add-penyidik.PNG" width="600" height="280"> <br />
+
+# Closing
+Thus this Pluto Polygraph Application manual was created, we hope that it can help all users to understand how the use and function of this application works as a whole. Finally, with all the ability and sincerity, I hope the Pluto Polygraph application can continue to be developed and perfected. <br />
+
+## Get in Touch
+Contact us to find out more : <br />
+Location: Politeknik Siber dan Sandi Negara <br />
+Email: m.novrizal@student.potlekssn.ac.id <br />
+Call: +62 87863388912 <br />
