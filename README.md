@@ -144,3 +144,27 @@ The menu structure in the Pluto Polygraph Application is as follows: <br />
     investigator1@puslab.com : investigator1 (for investigator users) <br />
 
     Investigator users can be added later using a super user account. If you have logged in, it will display a dashboard page like the following: <br />
+    <p align="center"><img src="images/dashboard-1.PNG" width="600" height="280"> <br />
+    <p align="center"><img src="images/dashboard-2.PNG" width="600" height="280"> <br />
+
+  a. Investigator Page <br />
+    The investigator user will display the initial dashboard as shown in Figure 4.3, and have the following menu: <br />
+    <p align="center"><img src="images/menu-penyidik.PNG" width="600" height="280"> <br />
+    1) Menu EEG Extraction <br />
+      This menu will display the steps in extracting human brain signal data or EEG signal data, which will then be analyzed in detection data. These stages start from the installation of the required modules to the interview process with the subject who is paired with the tool. The data includes EEG data per question in the interview conducted. <br />
+      <p align="center"><img src="images/menu-eeg-extraction.PNG" width="600" height="280"> <br />
+    2) Menu File Detection <br />
+      This menu is used to analyze the data obtained from the extraction of EEG data. The data is entered on the select file button, then select the data then click the analysis and prediction button. After completion of the analysis will display the average data and data per time EEG per frequency. Furthermore, it displays the percentage of prediction results between honest and lying.
+      <p align="center"><img src="images/menu-lie-detection.PNG" width="600" height="280"> <br />
+      Furthermore, the data that has been analyzed can be stored in cases that have been created on the add case menu. Click the save prediction result button to save the analysis and prediction results. <br />
+      <p align="center"><img src="images/save-result.PNG" width="600" height="280"> <br />
+    3) Menu History Detection
+      The History menu displays the history of the analysis and prediction results that have been saved in certain cases, such as the explanation of the file prediction menu feature. The data displayed include name, age, gender, case, time, and details of what questions were given at the time of the interview along with the prediction results. <br />
+      <p align="center"><img src="images/menu-history-1.PNG" width="600" height="280"> <br />
+      <p align="center"><img src="images/menu-history-2.PNG" width="600" height="280"> <br />
+    4) Menu Add Case
+      This menu serves to add cases that are being worked on by certain investigators. Any user can create a case and only that user can see the case he created. The data input form will enter data such as full name, age, gender, and the case of the subject. <br />
+      <p align="center"><img src="images/menu-add-case.PNG" width="600" height="280"> <br />
+    5) Menu Logout
+      This menu is used to log out of the account or from the dashboard that is logged in with the account. To exit or logout by clicking the user icon in the upper right corner then a dropdown menu will appear, then click the logout button and successfully exit the dashboard. <br />
+      <p align="center"><img src="images/menu-logout.PNG" width="600" height="280"> <br />
